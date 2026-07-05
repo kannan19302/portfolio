@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M100 6 L182 46 V110 C182 156 148 182 100 194 C52 182 18 156 18 110 V46 Z" fill="#ffffff" stroke="#0d1a4b" stroke-width="7"/>
+  <text x="100" y="58" font-family="Arial, sans-serif" font-size="17" font-weight="800" fill="#0d1a4b" text-anchor="middle">Microsoft</text>
+  <text x="100" y="76" font-family="Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#0d1a4b" text-anchor="middle">CERTIFIED</text>
+  <path d="M100 194 C52 182 18 156 18 110 V96 H182 V110 C182 156 148 182 100 194 Z" fill="#0b6cd6"/>
+  <path d="M100 118 l6.5 13.5 14.9 2.1-10.8 10.5 2.6 14.9L100 152l-13.2 6.9 2.6-14.9-10.8-10.5 14.9-2.1z" fill="#ffffff"/>
+  <rect x="10" y="82" width="180" height="34" rx="6" fill="#ffffff" stroke="#4a4f57" stroke-width="4"/>
+  <text x="100" y="97" font-family="Arial, sans-serif" font-size="14" font-weight="800" fill="#1c1f26" text-anchor="middle">AZURE</text>
+  <text x="100" y="112" font-family="Arial, sans-serif" font-size="14" font-weight="800" fill="#1c1f26" text-anchor="middle">FUNDAMENTALS</text>
+</svg>

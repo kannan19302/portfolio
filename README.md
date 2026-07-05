@@ -7,9 +7,9 @@ Source for my personal portfolio site — a static, no-build HTML/CSS/JS page.
 Place these files in `assets/` (referenced by `index.html` but not included in this repo):
 
 - `Kannan_Rajagopal_Resume.pdf` — export your resume as PDF (the hero "Resume" button links here)
-- `az-900.png` — Credly badge image for AZ-900
-- `dp-900.png` — Credly badge image for DP-900
 - `og-image.png` — 1200x630 social preview image (optional but recommended for link previews)
+
+Placeholder shield badges for AZ-900 and DP-900 are already in `assets/` as SVGs. Swap in your real Credly PNGs (`az-900.png` / `dp-900.png`) and update the `<img src>` paths in `index.html` if you'd rather use the official badge art.
 
 ## Deploying to GitHub Pages as kannan19302.github.io
 
