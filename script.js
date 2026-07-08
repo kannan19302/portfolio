@@ -38,6 +38,38 @@ navLinks.querySelectorAll('a').forEach((link) => {
   });
 });
 
+// Typed role rotation
+const typedEl = document.getElementById('typed-role');
+const roles = ['Full-Stack Java Engineer', 'Spring Boot Developer', 'Enterprise Systems Builder', 'AI-Assisted Product Builder'];
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+if (typedEl && !reduceMotion) {
+  let roleIndex = 0;
+  let charIndex = roles[0].length;
+  let deleting = false;
+
+  const tick = () => {
+    const current = roles[roleIndex];
+    charIndex += deleting ? -1 : 1;
+    typedEl.textContent = current.slice(0, charIndex);
+
+    let delay = deleting ? 40 : 70;
+
+    if (!deleting && charIndex === current.length) {
+      delay = 1800;
+      deleting = true;
+    } else if (deleting && charIndex === 0) {
+      deleting = false;
+      roleIndex = (roleIndex + 1) % roles.length;
+      delay = 300;
+    }
+
+    setTimeout(tick, delay);
+  };
+
+  setTimeout(tick, 1800);
+}
+
 // Scroll reveal
 const revealEls = document.querySelectorAll('.reveal');
 

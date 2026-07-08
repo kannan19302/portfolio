@@ -52,28 +52,77 @@
   <section id="top" class="hero">
     <div class="hero__blob hero__blob--one" aria-hidden="true"></div>
     <div class="hero__blob hero__blob--two" aria-hidden="true"></div>
+    <div class="hero__grid-overlay" aria-hidden="true"></div>
     <div class="container hero__inner">
-      <div class="hero__avatar reveal" aria-hidden="true">KR</div>
-      <p class="hero__eyebrow reveal">Hello, I'm</p>
-      <h1 class="hero__name reveal">Kannan Rajagopal</h1>
-      <h2 class="hero__title reveal">Full-Stack Java Engineer</h2>
-      <p class="hero__pitch reveal">I build reliable, scalable enterprise systems with Java and Spring Boot — and ship modern full-stack products end-to-end using AI-assisted development.</p>
-      <div class="hero__actions reveal">
-        <a class="btn btn--primary" href="assets/Kannan_Rajagopal_Resume.pdf" target="_blank" rel="noopener">Resume</a>
-        <a class="btn btn--outline" href="https://github.com/kannan19302" target="_blank" rel="noopener">GitHub</a>
-        <a class="btn btn--outline" href="https://linkedin.com/in/kannan--rajagopal" target="_blank" rel="noopener">LinkedIn</a>
+      <div class="hero__copy">
+        <p class="hero__eyebrow reveal"><span class="hero__dot" aria-hidden="true"></span>Available for new opportunities</p>
+        <h1 class="hero__name reveal">Kannan Rajagopal</h1>
+        <h2 class="hero__title reveal">
+          <span class="hero__typed" id="typed-role">Full-Stack Java Engineer</span><span class="hero__cursor" aria-hidden="true">|</span>
+        </h2>
+        <p class="hero__pitch reveal">I build reliable, scalable enterprise systems with Java and Spring Boot at Cognizant — and ship modern full-stack products end-to-end using AI-assisted development.</p>
+        <div class="hero__actions reveal">
+          <a class="btn btn--primary" href="assets/Kannan_Rajagopal_Resume.pdf" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+            Resume
+          </a>
+          <a class="btn btn--outline" href="https://github.com/kannan19302" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.54 2.87 8.39 6.84 9.75.5.1.68-.22.68-.5 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.5-1.11-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.05 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.92-2.34 4.78-4.57 5.04.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.5A10.02 10.02 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg>
+            GitHub
+          </a>
+          <a class="btn btn--outline" href="https://linkedin.com/in/kannan--rajagopal" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM3.4 8.75h3.08V21H3.4V8.75Zm6.16 0h2.95v1.68h.04c.41-.78 1.42-1.6 2.92-1.6 3.12 0 3.7 2.05 3.7 4.72V21h-3.08v-5.7c0-1.36-.02-3.1-1.89-3.1-1.9 0-2.19 1.48-2.19 3v5.8H9.56V8.75Z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+        <ul class="hero__stats reveal">
+          <li><span class="hero__stat-num">3+</span><span class="hero__stat-label">Years Experience</span></li>
+          <li><span class="hero__stat-num">33</span><span class="hero__stat-label">ERP Modules Shipped</span></li>
+          <li><span class="hero__stat-num">2</span><span class="hero__stat-label">Azure Certifications</span></li>
+        </ul>
       </div>
-      <a href="#about" class="hero__scroll" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
-      </a>
+
+      <div class="hero__visual reveal" aria-hidden="true">
+        <div class="code-window">
+          <div class="code-window__bar">
+            <span class="code-window__dot code-window__dot--red"></span>
+            <span class="code-window__dot code-window__dot--yellow"></span>
+            <span class="code-window__dot code-window__dot--green"></span>
+            <span class="code-window__title">Engineer.java</span>
+          </div>
+          <pre class="code-window__body"><code><span class="tok-kw">public class</span> <span class="tok-class">Engineer</span> {
+
+    <span class="tok-kw">private</span> String name = <span class="tok-str">"Kannan Rajagopal"</span>;
+    <span class="tok-kw">private</span> String role = <span class="tok-str">"Full-Stack Java Engineer"</span>;
+    <span class="tok-kw">private</span> String[] stack = {
+        <span class="tok-str">"Java"</span>, <span class="tok-str">"Spring Boot"</span>, <span class="tok-str">"Hibernate"</span>,
+        <span class="tok-str">"Next.js"</span>, <span class="tok-str">"NestJS"</span>, <span class="tok-str">"Azure"</span>
+    };
+
+    <span class="tok-kw">public</span> <span class="tok-class">Boolean</span> shipsWithAI() {
+        <span class="tok-kw">return</span> <span class="tok-kw">true</span>; <span class="tok-comment">// Claude Code</span>
+    }
+}</code></pre>
+        </div>
+      </div>
     </div>
+    <a href="#about" class="hero__scroll" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
   </section>
 
   <section id="about" class="section container reveal">
     <h2 class="section__title">About</h2>
-    <p class="about__text">
-      I'm a Full-Stack Engineer at Cognizant with three years of experience building and maintaining enterprise applications for Savvas Learning Company, a K-12 EdTech provider, using Java, Spring Boot, Hibernate, and enterprise ColdFusion. I'm Azure-certified (AZ-900, DP-900) and comfortable across the stack — from SQL Server and Oracle to REST APIs and front-end JavaScript. Outside of work, I design and build my own products solo, including a full-scale open-source ERP system, using AI coding agents like Claude Code to move fast without cutting corners.
-    </p>
+    <div class="about__layout">
+      <p class="about__text">
+        I'm a Full-Stack Engineer at Cognizant with three years of experience building and maintaining enterprise applications for Savvas Learning Company, a K-12 EdTech provider, using Java, Spring Boot, Hibernate, and enterprise ColdFusion. I'm Azure-certified (AZ-900, DP-900) and comfortable across the stack — from SQL Server and Oracle to REST APIs and front-end JavaScript. Outside of work, I design and build my own products solo, including a full-scale open-source ERP system, using AI coding agents like Claude Code to move fast without cutting corners.
+      </p>
+      <ul class="about__highlights">
+        <li><span class="about__highlight-icon">&#127970;</span><div><strong>Enterprise EdTech</strong><span>3 years on the Savvas Learning Company (K-12) account at Cognizant</span></div></li>
+        <li><span class="about__highlight-icon">&#9729;</span><div><strong>Azure Certified</strong><span>AZ-900 Fundamentals &amp; DP-900 Data Fundamentals</span></div></li>
+        <li><span class="about__highlight-icon">&#128640;</span><div><strong>Solo Product Builder</strong><span>Designed &amp; shipped a 33-module ERP end-to-end with AI-Agent Driven Development</span></div></li>
+      </ul>
+    </div>
   </section>
 
   <section id="skills" class="section container reveal">
@@ -82,27 +131,27 @@
       <div class="skill-card reveal">
         <div class="skill-card__icon">&#60;/&#62;</div>
         <h3>Languages</h3>
-        <ul><li>Java</li><li>TypeScript</li><li>SQL</li></ul>
+        <ul class="skill-card__pills"><li>Java</li><li>TypeScript</li><li>SQL</li></ul>
       </div>
       <div class="skill-card reveal">
         <div class="skill-card__icon">&#9881;</div>
         <h3>Frameworks</h3>
-        <ul><li>Spring Boot</li><li>Hibernate</li><li>Next.js</li><li>NestJS</li></ul>
+        <ul class="skill-card__pills"><li>Spring Boot</li><li>Hibernate</li><li>Next.js</li><li>NestJS</li></ul>
       </div>
       <div class="skill-card reveal">
         <div class="skill-card__icon">&#128451;</div>
         <h3>Databases</h3>
-        <ul><li>SQL Server</li><li>Oracle</li><li>PostgreSQL</li></ul>
+        <ul class="skill-card__pills"><li>SQL Server</li><li>Oracle</li><li>PostgreSQL</li></ul>
       </div>
       <div class="skill-card reveal">
         <div class="skill-card__icon">&#9729;</div>
         <h3>Cloud</h3>
-        <ul><li>Microsoft Azure</li></ul>
+        <ul class="skill-card__pills"><li>Microsoft Azure</li></ul>
       </div>
       <div class="skill-card reveal">
         <div class="skill-card__icon">&#128295;</div>
         <h3>Other</h3>
-        <ul><li>ColdFusion</li><li>Git</li><li>Docker</li><li>AI-Assisted Development</li></ul>
+        <ul class="skill-card__pills"><li>ColdFusion</li><li>Git</li><li>Docker</li><li>AI-Assisted Development</li></ul>
       </div>
     </div>
   </section>
@@ -112,14 +161,28 @@
     <div class="projects__grid">
 
       <article class="project-card reveal project-card--featured">
+        <div class="project-card__window" aria-hidden="true">
+          <span class="code-window__dot code-window__dot--red"></span>
+          <span class="code-window__dot code-window__dot--yellow"></span>
+          <span class="code-window__dot code-window__dot--green"></span>
+          <span class="project-card__window-title">github.com/kannan19302/ERPSys</span>
+        </div>
         <div class="project-card__body">
           <span class="project-card__tag">Featured · Open Source</span>
           <h3>UniERP — Open-Source Multi-Tenant ERP</h3>
           <p>A composable, multi-tenant, industry-agnostic ERP system spanning 33 modules across finance, HR, CRM, manufacturing, healthcare, and education. Developed solo end-to-end using AI-Agent Driven Development (AADD) and currently in active development.</p>
+          <ul class="project-card__metrics">
+            <li><strong>33</strong> Modules</li>
+            <li><strong>6</strong> Industries</li>
+            <li><strong>Solo</strong> Build</li>
+          </ul>
           <ul class="project-card__stack">
             <li>Next.js 15</li><li>React 19</li><li>NestJS</li><li>PostgreSQL</li><li>Prisma</li><li>Redis</li><li>BullMQ</li><li>Docker</li>
           </ul>
-          <a class="btn btn--outline btn--small" href="https://github.com/kannan19302/ERPSys" target="_blank" rel="noopener">View on GitHub</a>
+          <a class="btn btn--outline btn--small" href="https://github.com/kannan19302/ERPSys" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.54 2.87 8.39 6.84 9.75.5.1.68-.22.68-.5 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.45-1.18-1.11-1.5-1.11-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.05 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.92-2.34 4.78-4.57 5.04.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.5A10.02 10.02 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg>
+            View on GitHub
+          </a>
         </div>
       </article>
 
@@ -146,8 +209,9 @@
     <h2 class="section__title">Experience</h2>
     <div class="timeline">
       <div class="timeline__item reveal">
-        <div class="timeline__dot"></div>
+        <div class="timeline__dot timeline__dot--current"></div>
         <div class="timeline__content">
+          <span class="timeline__badge">Current</span>
           <h3>Software Engineer</h3>
           <p class="timeline__meta">Cognizant · Savvas Learning Company (K-12 EdTech) · Apr 2026 – Present</p>
         </div>
