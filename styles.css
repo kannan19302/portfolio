@@ -214,7 +214,7 @@ a { color: inherit; text-decoration: none; }
   max-width: var(--max-width);
 }
 .hero__copy { max-width: 540px; min-width: 0; }
-.hero__visual { min-width: 0; }
+.hero__visual { min-width: 0; width: 100%; }
 
 .hero__eyebrow {
   display: inline-flex;
@@ -326,6 +326,9 @@ a { color: inherit; text-decoration: none; }
   transform: rotateY(-6deg) rotateX(2deg);
   transition: transform 0.4s ease;
   border: 1px solid rgba(255, 255, 255, 0.08);
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 .code-window:hover { transform: rotateY(0) rotateX(0); }
 .code-window__bar {
@@ -358,6 +361,9 @@ a { color: inherit; text-decoration: none; }
   color: #d5d7e0;
   overflow-x: auto;
   text-align: left;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 .tok-kw { color: #ff79c6; }
 .tok-class { color: #8be9fd; }
