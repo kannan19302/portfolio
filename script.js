@@ -40,7 +40,7 @@ navLinks.querySelectorAll('a').forEach((link) => {
 
 // Typed role rotation
 const typedEl = document.getElementById('typed-role');
-const roles = ['Full-Stack Java Engineer', 'Spring Boot Developer', 'Enterprise Systems Builder', 'AI-Assisted Product Builder'];
+const roles = ['Software Engineer', 'Java & Spring Boot Developer', 'Full-Stack Developer'];
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 if (typedEl && !reduceMotion) {
