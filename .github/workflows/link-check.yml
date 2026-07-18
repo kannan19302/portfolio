@@ -16,5 +16,7 @@ jobs:
       - name: Check for broken links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress index.html
+          # linkedin.com is excluded: it returns HTTP 999 to automated/non-browser
+          # requests (anti-bot), not a real broken-link signal.
+          args: --no-progress --exclude linkedin.com index.html
           fail: true
