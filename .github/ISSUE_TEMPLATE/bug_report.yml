@@ -1,0 +1,21 @@
+name: Bug Report
+description: Report a broken layout, link, or asset on the site
+title: "fix: <short summary>"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device / browser

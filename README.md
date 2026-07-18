@@ -1,39 +1,50 @@
-# kannan19302.github.io
+# portfolio
 
-Source for my personal portfolio site — a static, no-build HTML/CSS/JS page.
+[![Link Check](https://github.com/kannan19302/portfolio/actions/workflows/link-check.yml/badge.svg)](https://github.com/kannan19302/portfolio/actions/workflows/link-check.yml)
+[![Pages](https://img.shields.io/badge/pages-live-brightgreen.svg)](https://kannan19302.github.io/portfolio/)
 
-## Assets you still need to drop in before deploying
+Source for [kannan19302's](https://github.com/kannan19302) personal portfolio site — a static,
+no-build HTML/CSS/JS single page (hero, about, skills, featured project, experience,
+certifications, contact). **Live at <https://kannan19302.github.io/portfolio/>** via GitHub
+Pages, deployed straight from this repo's `main` branch — no separate Pages repo needed.
 
-Place these files in `assets/` (referenced by `index.html` but not included in this repo):
+## Technology stack
 
-- `Kannan_Rajagopal_Resume.pdf` — export your resume as PDF (the hero "Resume" button links here)
-- `og-image.png` — 1200x630 social preview image (optional but recommended for link previews)
-
-Placeholder shield badges for AZ-900 and DP-900 are already in `assets/` as SVGs. Swap in your real Credly PNGs (`az-900.png` / `dp-900.png`) and update the `<img src>` paths in `index.html` if you'd rather use the official badge art.
-
-## Deploying to GitHub Pages as kannan19302.github.io
-
-1. Create a new GitHub repository named exactly `kannan19302.github.io` (the special repo name that GitHub Pages serves at the root of your username domain).
-2. Push this folder's contents to the `main` branch:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial portfolio site"
-   git branch -M main
-   git remote add origin https://github.com/kannan19302/kannan19302.github.io.git
-   git push -u origin main
-   ```
-3. In the repo, go to **Settings → Pages**.
-4. Under **Build and deployment**, set **Source** to `Deploy from a branch`, branch `main`, folder `/ (root)`.
-5. Save. GitHub will publish the site at `https://kannan19302.github.io/` within a minute or two.
-6. Any future push to `main` redeploys automatically — no build step required.
+Plain HTML5 / CSS3 / vanilla JavaScript — no framework, no build step, no dependencies.
 
 ## Local preview
-
-Just open `index.html` in a browser, or serve it locally:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then visit `http://localhost:8000`.
+Then visit `http://localhost:8000`. Or just open `index.html` directly in a browser.
+
+## Deployment
+
+Already configured: **Settings → Pages** on this repo serves from `main` / `/ (root)` at
+`https://kannan19302.github.io/portfolio/`. Any push to `main` redeploys automatically.
+
+## Known gap
+
+`assets/og-image.png` (the 1200×630 social-preview image referenced by the `og:image` /
+`twitter:image` meta tags in `index.html`) isn't in the repo yet, so link previews on
+Twitter/LinkedIn/Slack currently show no image. A placeholder mockup is at
+`assets/og-image.svg` for reference — swap in a real PNG export before relying on link previews.
+
+## Contributing
+
+This is a personal site — content changes (bio, résumé, work history) won't take outside PRs, but
+bug reports (broken layout, links, accessibility) are welcome via [Issues](../../issues). See
+[CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## License
+
+All rights reserved for the personal content; see [LICENSE](LICENSE). Report security concerns
+per [SECURITY.md](SECURITY.md).
+
+## Contact
+
+- ✉️ [kannan19302@gmail.com](mailto:kannan19302@gmail.com)
+- [github.com/kannan19302](https://github.com/kannan19302)
+- [linkedin.com/in/kannan--rajagopal](https://linkedin.com/in/kannan--rajagopal)

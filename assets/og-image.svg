@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <text x="80" y="260" font-family="sans-serif" font-size="64" font-weight="700" fill="#f8fafc">Kannan Rajagopal</text>
+  <text x="80" y="320" font-family="sans-serif" font-size="34" fill="#94a3b8">Software Engineer — Java, Spring Boot, Next.js, NestJS</text>
+  <text x="80" y="380" font-family="sans-serif" font-size="26" fill="#6366f1">Builder of UniERP — an open-source multi-tenant ERP</text>
+  <text x="80" y="560" font-family="sans-serif" font-size="22" fill="#64748b">kannan19302.github.io/portfolio — placeholder social card, replace with a real design</text>
+</svg>
