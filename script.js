@@ -26,11 +26,10 @@ const stagePlace = document.getElementById('stage-place');
 const stageSubtitle = document.getElementById('stage-subtitle');
 const progressFill = document.getElementById('progress-fill');
 const storyLabels = [
-  { era: 'School years', place: 'Bodinayakanur', subtitle: 'Theni district, Tamil Nadu' },
   { era: '2019 – 2023', place: 'MCET', subtitle: 'College and code' },
   { era: 'Jan – Jun 2023', place: 'Java', subtitle: 'Cognizant internship' },
   { era: 'Sep 2023 – Today', place: 'Cognizant', subtitle: 'Enterprise applications' },
-  { era: 'Since Jun 2026', place: 'UniERP', subtitle: 'Personal project' },
+  { era: 'Since Jun 2026', place: 'Projects', subtitle: 'UniERP · personal work' },
 ];
 
 let activeChapter = -1;

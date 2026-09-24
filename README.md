@@ -9,8 +9,8 @@ no-build HTML/CSS/JS single page covering enterprise work, his Java internship, 
 `assets/Kannan_Rajagopal_Resume.pdf`. **Live at <https://kannan19302.github.io/portfolio/>**
 via GitHub Pages from this repo's `main` branch.
 
-The journey section follows verified milestones from Bodinayakanur through college, internship,
-production work, and UniERP. Its layered CSS 3D chapter artwork responds to scrolling and pointer
+The journey section follows verified milestones from college through internship,
+production work, and personal projects. Its layered CSS 3D chapter artwork responds to scrolling and pointer
 movement. The page respects the visitor's reduced-motion setting.
 
 ## Technology stack

@@ -46,3 +46,11 @@
 @media(prefers-reduced-motion:reduce){.hero-core{animation:none}.stage-art,.stage-face,.journey-chapter,.progress-track span{transition:none}}
 @media(max-width:700px){.journey-chapter{min-height:430px;justify-content:flex-start;padding:38px 0 52px}.has-journey-motion .journey-chapter{opacity:1}}
 @media(prefers-reduced-motion:reduce){.has-journey-motion .journey-chapter{opacity:1}}
+.brand-avatar{width:36px;height:36px;display:block;flex:none;overflow:hidden;border-radius:8px;border:1px solid #d4d4d8}.brand-avatar img{display:block;width:100%;height:100%;object-fit:cover;transform:scale(1.55);transform-origin:center 30%}
+.hero-core{padding:0;overflow:hidden;position:relative}
+.hero-portrait{width:100%;height:100%;display:block;object-fit:cover;object-position:center}
+.hero-core-caption{position:absolute;bottom:0;left:0;right:0;padding:12px 13px;background:rgba(24,24,27,.82);color:#fff;font-size:10px;line-height:1.3}
+.project-notes>.section-label{color:#71717a;font-size:12px;margin:0 0 11px}
+.project-notes>h3{font-size:clamp(28px,3vw,40px);margin-bottom:16px}
+.project-link{display:inline-flex;margin-top:24px}
+@media(max-width:700px){.brand-avatar{width:32px;height:32px}.hero-core-caption{font-size:8px;padding:9px}}
