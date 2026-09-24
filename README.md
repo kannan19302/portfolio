@@ -3,10 +3,11 @@
 [![Link Check](https://github.com/kannan19302/portfolio/actions/workflows/link-check.yml/badge.svg)](https://github.com/kannan19302/portfolio/actions/workflows/link-check.yml)
 [![Pages](https://img.shields.io/badge/pages-live-brightgreen.svg)](https://kannan19302.github.io/portfolio/)
 
-Source for [kannan19302's](https://github.com/kannan19302) personal portfolio site — a static,
-no-build HTML/CSS/JS single page (hero, about, skills, featured project, experience,
-certifications, contact). **Live at <https://kannan19302.github.io/portfolio/>** via GitHub
-Pages, deployed straight from this repo's `main` branch — no separate Pages repo needed.
+Source for [Kannan Rajagopal's](https://github.com/kannan19302) personal portfolio site — a static,
+no-build HTML/CSS/JS single page covering enterprise work, his Java internship, and the public
+[UniERP](https://github.com/kannan19302/UniERP) project. The downloadable resume is
+`assets/Kannan_Rajagopal_Resume.pdf`. **Live at <https://kannan19302.github.io/portfolio/>**
+via GitHub Pages from this repo's `main` branch.
 
 ## Technology stack
 
@@ -25,12 +26,8 @@ Then visit `http://localhost:8000`. Or just open `index.html` directly in a brow
 Already configured: **Settings → Pages** on this repo serves from `main` / `/ (root)` at
 `https://kannan19302.github.io/portfolio/`. Any push to `main` redeploys automatically.
 
-## Known gap
-
-`assets/og-image.png` (the 1200×630 social-preview image referenced by the `og:image` /
-`twitter:image` meta tags in `index.html`) isn't in the repo yet, so link previews on
-Twitter/LinkedIn/Slack currently show no image. A placeholder mockup is at
-`assets/og-image.svg` for reference — swap in a real PNG export before relying on link previews.
+The page does not currently advertise a social preview image. `assets/og-image.svg` is an unused
+placeholder retained for a future preview image.
 
 ## Contributing
 
