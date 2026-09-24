@@ -26,10 +26,10 @@ const stagePlace = document.getElementById('stage-place');
 const stageSubtitle = document.getElementById('stage-subtitle');
 const progressFill = document.getElementById('progress-fill');
 const storyLabels = [
-  { era: '2019 – 2023', place: 'MCET', subtitle: 'College and code' },
-  { era: 'Jan – Jun 2023', place: 'Java', subtitle: 'Cognizant internship' },
-  { era: 'Sep 2023 – Today', place: 'Cognizant', subtitle: 'Enterprise applications' },
-  { era: 'Since Jun 2026', place: 'Projects', subtitle: 'UniERP · personal work' },
+  { era: '2019 – 2023', place: 'MCET', subtitle: 'From circuits to code' },
+  { era: 'Jan – Jun 2023', place: 'Java', subtitle: 'More than one project' },
+  { era: 'Sep 2023 – Today', place: 'Cognizant', subtitle: 'When the code has users' },
+  { era: 'Since Jun 2026', place: 'Projects', subtitle: 'The after-hours workshop' },
 ];
 
 let activeChapter = -1;

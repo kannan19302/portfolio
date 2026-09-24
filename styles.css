@@ -54,3 +54,5 @@
 .project-notes>h3{font-size:clamp(28px,3vw,40px);margin-bottom:16px}
 .project-link{display:inline-flex;margin-top:24px}
 @media(max-width:700px){.brand-avatar{width:32px;height:32px}.hero-core-caption{font-size:8px;padding:9px}}
+.journey-outro{margin:0 auto;padding:64px 0 0;border-top:1px solid var(--border);font-size:clamp(27px,3vw,44px);line-height:1.2;letter-spacing:-.05em;font-weight:600}
+@media(max-width:700px){.journey-outro{padding-top:42px}}
