@@ -4,9 +4,9 @@
 [![Pages](https://img.shields.io/badge/pages-live-brightgreen.svg)](https://kannan19302.github.io/portfolio/)
 
 Source for [Kannan Rajagopal's](https://github.com/kannan19302) personal portfolio site — a static,
-no-build HTML/CSS/JS single page covering enterprise work, his Java internship, and the public
+no-build HTML/CSS/JS single page covering Java and Spring Boot enterprise development, ColdFusion modernization, his internship, and the public
 [UniERP](https://github.com/kannan19302/UniERP) project. The downloadable resume is
-`assets/Kannan_Rajagopal_Resume.pdf`. **Live at <https://kannan19302.github.io/portfolio/>**
+`assets/Kannan_Rajagopal_Resume.docx`. **Live at <https://kannan19302.github.io/portfolio/>**
 via GitHub Pages from this repo's `main` branch.
 
 The journey section follows verified milestones from college through internship,

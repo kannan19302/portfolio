@@ -27,8 +27,8 @@ const stageSubtitle = document.getElementById('stage-subtitle');
 const progressFill = document.getElementById('progress-fill');
 const storyLabels = [
   { era: '2019 – 2023', place: 'MCET', subtitle: 'From circuits to code' },
-  { era: 'Jan – Jun 2023', place: 'Java', subtitle: 'More than one project' },
-  { era: 'Sep 2023 – Today', place: 'Cognizant', subtitle: 'When the code has users' },
+  { era: 'Jan – Jun 2023', place: 'Java', subtitle: 'A Java foundation' },
+  { era: 'Sep 2023 – Present', place: 'Cognizant', subtitle: 'When the code has users' },
   { era: 'Since Jun 2026', place: 'Projects', subtitle: 'The after-hours workshop' },
 ];
 
